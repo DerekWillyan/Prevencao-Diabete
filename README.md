@@ -16,9 +16,9 @@ Com o uso do **XGBoost**, uma poderosa biblioteca de aprendizado de máquina, cr
 A seguir, os principais arquivos e pastas do projeto:  
 ```
 ├── data/
-│   ├── diabetes_dataset.csv   # Banco de dados utilizado
+│   ├── diabetes_prediction_dataset.csv   # Banco de dados utilizado
 ├── src/
-│   ├── diabetes_prediction.py # Script principal com o modelo
+│   ├── modelXG.py # Script principal com o modelo
 │   ├── decision_tree_image.png # Imagem da árvore de decisão gerada
 ├── README.md  # Este arquivo
 ```
@@ -35,17 +35,17 @@ A seguir, os principais arquivos e pastas do projeto:
 ### 2️⃣ Executar o Script:
 1. Clone o repositório:  
     ```bash
-    git clone https://github.com/SEU_USUARIO/prevention-diabetes.git
-    cd prevention-diabetes
+    git clone https://github.com/SEU_USUARIO/Prevencao-Diabete.git
+    cd Prevencao-Diabete
     ```
 2. Navegue até a pasta `src` e execute o script:  
     ```bash
-    python diabetes_prediction.py
+    python modelXG.py
     ```
 
 ## 🧪 Dataset  
 
-O dataset utilizado, `diabetes_dataset.csv`, contém informações sobre pacientes e os fatores de risco associados ao diabetes. A estrutura principal do arquivo é:  
+O dataset utilizado, `diabetes_prediction_dataset.csv`, contém informações sobre pacientes e os fatores de risco associados ao diabetes. A estrutura principal do arquivo é:  
 
 | **Coluna**        | **Descrição**                         |  
 |--------------------|---------------------------------------|  
