@@ -63,7 +63,7 @@ Uma das árvores de decisão geradas pelo modelo está representada na imagem ab
 
 ## 📈 Resultados  
 
-- **Acurácia do modelo**: *xx%*.  
+- **Acurácia do modelo**: *97.06%*.  
 - Outras métricas importantes estão disponíveis ao rodar o script principal.  
 
 ## 📜 Licença  
